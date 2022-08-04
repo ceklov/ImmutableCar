@@ -17,8 +17,8 @@ public final class Car implements Comparable<Car> {
     }
 
     public enum Make {
-        FORD,
         CHEVY,
+        FORD,
         UNKNOWN
     }
 
@@ -54,7 +54,7 @@ public final class Car implements Comparable<Car> {
     public String toString() {
         return "Car { " +
                 "make=" + make +
-                ", model='" + model +
+                ", model=" + model +
                 ", year=" + year +
                 " }";
     }
