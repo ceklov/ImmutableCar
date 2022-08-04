@@ -27,3 +27,6 @@ A demonstration of an immutable class with a variety of Java features, including
 *   compareTo() has been overridden, as required by implementing the Comparable interface, following the same ordering of fields as equals() and hashCode()
 *   toString() has been overridden such that it returns a human-readable value
     
+## Testing
+*   JUnit unit tests
+*   full test coverage (class, method, and line coverage)
